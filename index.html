@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Lưu Trữ và Chia Sẻ Tài Liệu Đại Học</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo-title">
+      <img src="Logo/logo.jpg" alt="Logo" class="logo">
+      <div>
+        <div class="site-title">Lưu Trữ và Chia Sẻ</div>
+        <div class="site-subtitle">Tài Liệu Đại Học</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#" id="nav-premium">Premium</a>
+      <a href="#" id="nav-about">About Us</a>
+      <a href="#" id="nav-login">Đăng nhập</a>
+    </nav>
+  </header>
+  <main>
+    <section id="home-section">
+      <div class="centered">
+        <img src="Logo/logo.jpg" alt="Logo" class="main-logo">
+        <p>
+          Chúng tôi rất vui khi bạn ghé thăm nền tảng chia sẻ và lưu trữ tài liệu học tập dành riêng cho sinh viên đại học.<br>
+          <span class="highlight">Chiasetailieudaihoc</span> được tạo ra với mục tiêu hỗ trợ cộng đồng sinh viên trong việc học tập, nghiên cứu và trao đổi kiến thức một cách dễ dàng, nhanh chóng và hoàn toàn miễn phí.
+        </p>
+        <div class="card-row">
+          <div class="blue-card" onclick="showUniversity('Đh ct')">
+            <img src="Logo/DHCT_logo.jpg" alt="Đh ct" class="card-img">
+          </div>
+          <div class="blue-card" onclick="showUniversity('nct')">
+            <img src="Logo/DNG_logo.jpg" alt="nct" class="card-img">
+          </div>
+          <div class="blue-card" onclick="showUniversity('fpt')">
+            <img src="Logo/FPT_logo.jpg" alt="fpt" class="card-img">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="university-section" style="display:none;">
+      <div class="centered">
+        <div class="card-row">
+          <div class="blue-card">môn</div>
+          <div class="blue-card"></div>
+          <div class="blue-card"></div>
+        </div>
+      </div>
+    </section>
+    <section id="about-section" style="display:none;">
+      <div class="about-row">
+        <img src="Logo/logo.jpg" class="about-logo" alt="Logo">
+        <div>
+          <b>CEO/ Quản lý dự án:</b> Bùi Quốc Huy<br>
+          là Trưởng nhóm, chịu trách nhiệm điều phối toàn bộ dự án website lưu trữ và chia sẻ tài liệu đại học. Với khả năng lãnh đạo và quản lý hiệu quả, tôi đã dẫn dắt nhóm hoàn thành mục tiêu đúng tiến độ và đảm bảo chất lượng. <span class="highlight">Tôi</span> luôn tạo môi trường làm việc đoàn kết, sáng tạo, góp phần xây dựng nền tảng học tập hữu ích cho cộng đồng sinh viên.
+        </div>
+      </div>
+      <div class="about-row">
+        <div>
+          <b>Người phụ trách nội dung:</b> Bùi Quốc Khánh<br>
+          chịu trách nhiệm xây dựng và biên tập toàn bộ nội dung cho website lưu trữ và chia sẻ tài liệu đại học. Tôi đảm bảo các bài viết, hướng dẫn và tài liệu minh hoạ được trình bày rõ ràng, dễ hiểu và phù hợp với nhu cầu của người dùng. Qua vai trò này, <span class="highlight">tôi</span> góp phần tạo nên trải nghiệm học tập hiệu quả và hấp dẫn cho cộng đồng sinh viên.
+        </div>
+        <img src="Logo/logo.jpg" class="about-logo" alt="Logo">
+      </div>
+    </section>
+    <section id="login-section" style="display:none;">
+      <div class="login-box">
+        <h2>Đăng Nhập</h2>
+        <input type="text" placeholder="Nhập Số điện thoại">
+        <input type="password" placeholder="Nhập Mật khẩu">
+        <button>Đăng Nhập</button>
+        <div class="register-link"><a href="#">Đăng ký</a></div>
+      </div>
+    </section>
+    <section id="premium-section" style="display:none;">
+      <div class="premium-row">
+        <div class="premium-card free">
+          <b>Thường</b><br>free
+        </div>
+        <div class="premium-card premium">
+          <b>Premium</b><br>999.999đ
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html> 
